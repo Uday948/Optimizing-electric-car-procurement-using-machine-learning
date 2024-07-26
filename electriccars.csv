@@ -1,0 +1,36 @@
+Carmain,Price(In lakhs),Vehicle Type,Range(In km),Battery Capacity(in kwh),Airbags,Seating Capacity,Max Power(bhp),Cruise Control(yes/no),Sunroof(yes/no),Fast charging(yes/no),Parking Sensors,GNCAP Safty Rating,Transmission Type,Image
+Tata Nexon EV,13,SUV,465,40.5,6,5,142.68,yes,no,yes,Front & Rear,4.3,Automatic,https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Nexon-EV-2023/11024/1694146347051/front-left-side-47.jpg
+Tata Tigor EV,11,Sedan,315,26,2,5,73.75,no,no,yes,Rear,4.1,Automatic/Manual,https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Tigor-EV/7199/1592632314945/front-left-side-47.jpg
+Tata Punch EV,14,Suv,315,25,6,5,102.69,yes,yes,yes,Rear,4.2,Automatic,https://imgd.aeplcdn.com/1280x720/n/cw/ec/148309/punch-ev-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80
+Mahindhra eKUV100,8,SUV,200,40,4,5,145.68,yes,no,yes,Rear,4.2,Automatic,https://i0.wp.com/evduniya.com/wp-content/uploads/2020/06/Mahindra-eKUV100-Review.jpg?resize=800%2C400&ssl=1&is-pending-load=1
+Mahindhra XUV400 EV,15,SUV,456,39.4,6,5,147.51,yes,yes,yes,Rear,4.4,Automatic,https://stimg.cardekho.com/images/carexteriorimages/930x620/Mahindra/XUV400-EV/6820/1662704228567/front-left-side-47.jpg
+MG ZS EV,18,SUV,461,50.3,6,5,174.33,yes,yes,yes,Rear,4.1,Automatic,https://imgcdn.oto.com/large/gallery/color/139/2485/mg-zs-ev-color-233832.jpg
+MG Comet EV,6,Hatchback,230,17.3,2,4,41.42,no,no,yes,Rear,4.2,Automatic,https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230302023647_Comet%20EV.jpg&w=700&c=1
+Hyundai Kona Electric,23,SUV,452,39.2,6,5,134.1,yes,yes,yes,Rear,4.4,Automatic/Manual,https://imgd.aeplcdn.com/1280x720/n/cw/ec/29580/kona-electric-exterior-right-front-three-quarter-162254.jpeg?isig=0&q=80
+Hyundai IONIQ 5,46,SUV,631,72.6,6,5,216,yes,yes,yes,Rear,4.1,Automatic/Manual,https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20240304030241_hyundai_ioniq_5_front.jpg&w=700&c=1
+Kia Carens EV,80,SUV,600,75,6,5,113.42,yes,yes,no,Rear,4.2,Automatic/Manual,https://www.motorbeam.com/wp-content/uploads/Kia-Carens-X-Line-Price.jpg
+Kia EV5,55,SUV,665,88.1,6,5,214,no,yes,no,Rear,4.2,Automatic,https://www.carlelo.com/image/UpcomingCar_img/1712388516.webp
+Kia EV6,64,SUV,708,77.4,8,5,320.55,no,yes,yes,Front & Rear,4.4,Automatic,https://imgd.aeplcdn.com/1280x720/n/cw/ec/114971/ev6-exterior-right-front-three-quarter-4.jpeg?isig=0&q=80
+BYD seal,41,Sedan,510,82.56,9,5,308.43,yes,yes,yes,Front & Rear,4.2,Automatic,"https://timesofindia.indiatimes.com/thumb/msid-108219866,width-1280,height-720,resizemode-4/108219866.jpg"
+BYD Atto  3,33,SUV,512,60.48,7,5,201.15,no,yes,yes,Rear,4.1,Automatic,https://imgd.aeplcdn.com/1056x594/n/wu85qva_1612601.jpg?q=80
+BYD E6,29.15,MUV,520,71.7,4,5,93.87,no,no,yes,Rear,4.1,Automatic,https://www.financialexpress.com/wp-content/uploads/2021/11/BYD-e6-electric-MPV-1.jpg
+BYD Tang EV,60,SUV,635,86.4,6,7,510,yes,no,no,Rear,4.1,Autmatic/Manual,https://ev-database.org/img/auto/BYD_TANG/BYD_TANG-01@2x.jpg
+BYD Qin EV,28,sedan,520,71.7,4,4,304,no,no,no,Rear,4,Manual,https://img.cnevpost.com/2023/02/10213101/2023021013305365.jpg
+Toyota Prius,45,Hatchback,600,83.4,4,5,300,no,no,no,Rear,4,Manual,https://global.toyota/pages/news/images/2023/03/01/1330/20230301_02_ogp.jpg
+Audi e-tron,132,SUV,484,95,8,5,300,yes,yes,no,Front & Rear,4.1,Automatic,https://stimg.cardekho.com/images/carexteriorimages/930x620/Audi/e-tron/6591/1677914324939/front-left-side-47.jpg
+Audi e-tron Gt,172,Coupe,388,93,7,5,522.99,yes,no,yes,Front & Rear,4.1,Automatic,https://uploads.audi-mediacenter.com/system/production/media/71164/images/a41672e1a01de586f023e4491da3f88548b52984/A1814539_web_2880.jpg?1698345785
+Audi Rs e-tron GT,195,Coupe,401,93,7,5,636.98,yes,no,yes,Rear,4.4,Automatic,https://stimg.cardekho.com/images/carexteriorimages/930x620/Audi/RS-e-tron-GT/8607/1632310533051/front-left-side-47.jpg
+Audi Q8 e-tron,115,SUV,582,114,8,5,402.3,yes,yes,no,Rear,4.1,Automatic,"https://hips.hearstapps.com/hmg-prod/images/2024-audi-q8-sportback-s-line-e-tron-prestige-387-64b97354d78ca.jpg?crop=0.654xw:0.734xh;0.292xw,0.266xh&resize=768:*"
+Audi Q8 Sportback e-tron,119,Sedan,600,114,8,5,402.3,yes,yes,no,Rear,4.8,Automatic,https://imgd.aeplcdn.com/1056x594/n/pjaghbb_1682341.jpg?q=80
+BMW i7,250,Sedan,560,105.7,10,5,536.4,yes,yes,yes,Front &Rear,4.2,Automatic,https://st.arenaev.com/news/23/09/bmw-i7-xdrive60-review/-1242x621/arenaev_001.jpg
+BMW iX,121,SUV,575,111.5,8,5,516.29,yes,yes,yes,Front &Rear,4.1,Automatic,https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcms%2Farticles%2F2023%2F7%2F3208212%2Fbmw_ix_35619a249c.jpeg&w=3840&q=75
+BMW iX1,66.9,SUV,417,66.5,8,5,308.43,yes,yes,yes,Front &Rear,4.5,Automatic,https://autofystore.com/wp-content/uploads/2023/09/BMW_iX1_2022-01.jpg
+BMW i4,72.5,Sedan,590,70.22,8,5,335.25,yes,yes,no,Front &Rear,4.1,Automatic,https://i.gaw.to/vehicles/photos/40/33/403346-2024-bmw-i4.jpg
+Mercedes-Benz Eqs,162,Sedan,857,107.8,9,5,750.97,yes,yes,no,Rear,4.2,Automatic,https://www.mercedes-benz.co.in/content/dam/hq/passengercars/cars/eqs/eqs-v297-pi/modeloverview/08-2022/images/mercedes-eq-eqs-v297-modeloverview-3302x1858-08-2022.png
+Mercedes-Benz EQE Suv,139,SUV,550,96,7,5,402,yes,no,yes,Front & Rear,3.9,Automatic,https://www.mercedes-benz.co.in/content/dam/hq/passengercars/cars/eqe/suv-x294-pi/modeloverview/11-2022/images/mercedes-eq-eqe-suv-x294-modeloverview-696x392-11-2022.png
+Mercedes-Benz EQB,74.5,SUV,423,70.5,7,7,225.96,yes,yes,yes,Rear,4,Automatic,https://images.carandbike.com/car-images/gallery/mercedes-benz/eqb/exterior/mercedes-benz_eq.jpg?v=2022-12-06
+Mercedes-Benz AMG EQS,245,Sedan,580,107.8,6,5,750.97,yes,no,yes,Rear,4.2,Atomatic/Manual,https://imgd.aeplcdn.com/1056x594//n/cz8oeva_1598051.jpg?q=80
+Volvo XC40 Recharge,54.95,SUV,418,78,7,5,408,yes,yes,yes,Front & Rear,4.1,Automatic,https://blogs.gomechanic.com/wp-content/uploads/2019/10/volvo-xc40.jpg
+Volove C40 Recharge,62.95,SUV,530,78,7,5,402.3,yes,yes,yes,Front & Rear,4.9,Automatic,https://cdni.autocarindia.com/ExtraImages/20220726054546_volvo%20c40%20recharge.jpg
+Renault Kwid EV,5,Hatchback,230,26.8,4,4,67.06,no,no,no,Rear,3.8,Automatic,https://imgd.aeplcdn.com/1280x720/cw/ec/39341/Renault-Kwid-Exterior-153978.jpg?wm=0
+Rolls-Royce Spectre,750,Coupe,530,102,8,4,576.63,yes,yes,no,Front &Rear,4.8,Automatic,https://ev-database.org/img/auto/Rolls-Royce-Spectre/Rolls-Royce-Spectre-01@2x.jpg
