@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flask
+
+      - name: Create Flask app
+        run: |
+          mkdir -p app/templates
+          echo "
+          from flask import Flask, render_template
+          app = Flask(__name__)
+
+          @app.route('/')
+          def explore():
+              return render_template('explore.html')
+
+          @app.route('/result')
+          def result():
+              return render_template('result.html')
+
+          if __name__ == '__main__':
+              app.run(host='0.0.0.0', port=5000)
+          " > app/app.py
+
+          echo "<html><body><h1>Explore Page</h1></body></html>" > app/templates/explore.html
+          echo "<html><body><h1>Result Page</h1></body></html>" > app/templates/result.html
+
+      - name: Run Flask app
+        run: |
+          nohup python app/app.py &
