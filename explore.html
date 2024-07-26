@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Cars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: white center center fixed;
+            background-image: url('https://cdn.dribbble.com/users/629695/screenshots/6650472/wolfspeed_anim5_charge_loop1.gif');
+            color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            max-width: 100vw;
+        }
+        .navbar {
+            width: 100%;
+            /* background-color: #333; */
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            font-size: 80px;
+        }
+        .search-bar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 20px;
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            margin-top: 100px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .search-bar div {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        .search-bar label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .search-bar input, .search-bar select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+        .search-bar button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .search-bar button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">ELECTRIC CARS</a>
+    </div>
+    <div class="search-bar">
+        <form action="{{ url_for('explore') }}" method="post">
+            <div>
+                <label for="price">Price (in Lakhs) :(5 - 750)</label>
+                <input type="number" id="price" name="Price" placeholder="Price (₹)" required>
+            </div>
+            <div>
+                <label for="range">Range (in kms) :(200 - 857)</label>
+                <input type="number" id="range" name="Range" placeholder="Range (km)">
+            </div>
+            <div>
+                <label for="battery">Battery Capacity (in kwh) :(25 - 114)</label>
+                <input type="number" id="battery" name="Battery Capacity" placeholder="Battery Capacity (kWh)">
+            </div>
+            <div>
+                <label for="seating">Seating Capacity :(4 - 7)</label>
+                <input type="number" id="seating" name="Seating Capacity" placeholder="Number of Seats">
+            </div>
+            <div>
+                <label for="power">Max Power (in bhp) :(41 - 750)</label>
+                <input type="number" id="power" name="Max Power" placeholder="Power (hp)">
+            </div>
+            <div>
+                <button type="submit">Search</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
